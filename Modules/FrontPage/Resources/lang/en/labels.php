@@ -1,0 +1,26 @@
+<?php
+return [
+    'experience_vr' => 'EXPERIENCE VR TOUR',
+    'introduce' => 'INTRODUCE',
+    'order_now' => ' ORDER<br>NOW<br>TODAY',
+    'bathroom' => 'bathroom',
+    'bedroom' => 'bathroom',
+    'lounge' => 'lounge',
+    'night' => 'night',
+    'chose_start_date_stay' => 'CHOOSE THE START DATE TO STAY',
+    'chose_end_date_stay' => 'CHOOSE THE END DATE TO STAY',
+    'service_accompanied' => 'ACCOMPANIED SERVICE',
+    'total_price' => 'TOTAL PRICE',
+    'booking' => 'Booking',
+    'other_products' => 'Other products',
+    'come_with_us' => 'COME TO P’APIU',
+    'come_with_us_message' => 'Enjoy unforgettable experiences together',
+    'products_in_papiu' => 'P’APIU HOUSES',
+    'search_product' => 'Search product',
+    'no_result' => 'No result',
+    'book_success' => 'WISH YOU HAVE A FUN AND MEMORY EXPERIENCE!',
+    'you_must_fill_all' => 'You must fill all form data',
+    'mini_bar' => "Mini Bar",
+    'cinemar_title' => 'Cinemar',
+    'about_title' => "ABOUT"
+];

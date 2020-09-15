@@ -1,0 +1,255 @@
+.overView {
+    display: flex;
+    width: 100%;
+    margin-top: 107px;
+}
+
+.overView .leftOver {
+    margin-right: 140px;
+    width: 42%;
+}
+
+.overView .leftOver h1 {
+    font-size: 40px;
+    line-height: 35px;
+    color: #AB7038;
+    font-family: 'Pangolin-Regular';
+    text-align: right;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.overView .leftOver span {
+    font-size: 25px;
+    line-height: 24px;
+    font-family: 'Pangolin-Regular';
+
+    text-align: right;
+    width: 100%;
+    display: block;
+    color: #525252;
+}
+
+.overView .rightOver {
+    width: 30%;
+}
+
+.overView .rightOver span {
+    font-size: 15px;
+    line-height: 24px;
+    /* or 160% */
+
+
+    color: #525252;
+}
+
+.overView .rightOver a {
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #AB7038;
+    text-transform: uppercase;
+    text-decoration: underline;
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+}
+
+.overView .rightOver a:hover {
+    color: #000;
+}
+
+.content_home {
+    margin-top: 40px !important;
+}
+
+span.bread {
+    position: absolute;
+    top: 12px;
+    left: 15%;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    display: none;
+}
+
+.content_home li.active span.bread {
+    display: block;
+}
+
+.optionHome {
+    margin-top: 0;
+}
+
+.titleCategory .breadcrumb {
+    background-color: transparent;
+}
+
+.titleCategory .breadcrumb li a {
+    font-size: 15px;
+    line-height: 24px;
+    /* or 160% */
+
+    text-transform: uppercase;
+
+    color: #000000
+}
+
+.category_option {
+    border-top: 1px solid #AB7038;
+    border-bottom: 1px solid #AB7038 !important;
+    padding: 13px 0;
+}
+
+.category_option li a {
+    color: #231F20 !important;
+}
+
+.category_option li.active a:after,
+.category_option li:hover a:after {
+    bottom: 8px !important;
+    -height: 1px !important;
+    background: #AB7038 !important;
+}
+
+.categorySlide {
+    width: 100% !important;
+}
+
+
+.categorySlide .imgHome img {
+    height: 601px !important;
+}
+
+.categorySlide .imgHome {
+    margin-top: 75px;
+}
+
+.titleSlideCategory {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.special {
+    margin-top: 86px;
+}
+
+.list_offer {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.list_offer img {
+    width: 255px;
+    height: 255px;
+}
+
+.carousel-indicators li {
+    opacity: 0;
+}
+
+.carousel-indicators li.active {
+    background-color: transparent;
+}
+
+.imgHome .carousel-indicators {
+    left: inherit;
+    bottom: -15%;
+    margin: auto;
+}
+
+.imgHome .carousel-indicators li span {
+    font-family: 'Pangolin-Regular';
+    font-size: 20px;
+    line-height: 24px;
+    /* or 120% */
+
+
+    color: #525252;
+
+}
+
+.imgHome .carousel-indicators li p {
+    font-size: 12px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #525252;
+    margin-bottom: 0;
+    margin-left: 10px;
+    position: relative;
+    right: -15px;
+    top: -10px;
+}
+
+.imgHome .carousel-indicators li .contentText_slide:last-child p:last-child {
+    right: -25px;
+    top: -20px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .overView {
+        margin-top: 50px;
+    }
+    .foodSlide .categorySlide,
+    .foodSlide .infomation_servies {
+        padding: 0 15px;
+        width: 100%;
+    }
+    .foodSlide .overView .leftOver {
+        width: 100%;
+        margin-right: 0;
+    }
+    .foodSlide .overView .leftOver h1 {
+        margin-bottom: 20px;
+        padding-left: 0;
+        line-height: 1.2em;
+    }
+    .foodSlide ul.content_detail {
+        display: inline-block;
+    }
+    .foodSlide ul.content_detail li {
+        width: 100%;
+    }
+    .content_home li.active span.bread {
+        top: 0;
+        left: 40%;
+    }
+    .main .imgHome .carousel-indicators {
+        bottom: -40%;
+    }
+    
+    .foodSlide  .infomation_servies {
+        width: 100%
+    }
+    .infomation_servies ul.content_detail {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .overView {
+        margin-top: 50px !important;
+    }
+    .overView .leftOver h1 {
+        line-height: 45px;
+    }
+    .overView .leftOver span {
+        line-height: 35px;
+    }
+    .content_home li.active span.bread {
+        left: 24%;
+    }
+    .content_home .tab-content .imgHome img {
+        height: auto !important;
+    }
+    .list_offer {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .list_offer img {
+        width: 100% !important;
+        height: auto;
+    }
+}

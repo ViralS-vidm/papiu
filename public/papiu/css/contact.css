@@ -1,0 +1,131 @@
+.feedbacks h1 {
+    font-size: 40px;
+    line-height: 48px;
+    /* or 120% */
+    text-transform: uppercase;
+    color: #AB7038;
+    font-family: 'Pangolin-Regular';
+    margin-bottom: 65px;
+    display: block;
+}
+
+.feedbacks form .form-group {
+    display: flex;
+}
+
+.feedbacks form .form-group label {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #525252;
+    text-align: right;
+    width: 15%;
+    margin-right: 15px;
+}
+
+.form-input {
+    width: 100%;
+    position: relative;
+}
+
+.form-input:before {
+    display: block;
+    content: '';
+    background-image: url('../images/Polygon.png');
+    width: 15px;
+    height: 20px;
+    position: absolute;
+    left: -3px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.form-input input {
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-sizing: border-box;
+}
+
+.feedbacks form button.btn-primary-send {
+    width: 150px;
+    height: 43px;
+    background: #AB7038;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: none;
+    margin-top: 26px;
+    margin-left: 155px;
+    display: block;
+}
+
+.list_address {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.list_address li {
+    margin-right: 90px;
+}
+
+.list_address li h2 {
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 35px;
+    /* or 127% */
+    font-family: 'Pangolin-Regular';
+    color: #525252;
+}
+
+.list_address li div {
+    display: flex;
+}
+
+.list_address li div span,
+.list_address li div p {
+    font-weight: normal;
+    font-size: 16px;
+    color: #525252;
+}
+
+.list_address li div p {
+    margin-left: 5px;
+}
+
+.imgFood img {
+    display: inline-block;
+}
+
+iframe {
+    height: 400px;
+}
+
+
+@media screen and (max-width: 767px) {
+	.list_address {
+		display: inline-block;
+	}
+	.list_address li {
+        margin-right: 0;
+    }
+    .list_address li div {
+        width: 100%;
+    }
+    .feedbacks h1 {
+        margin-bottom: 20px;
+    }
+    .feedbacks form .form-group label {
+        width: 20%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .form-input,
+    .form-input input {
+        height: 40px;
+    }
+}

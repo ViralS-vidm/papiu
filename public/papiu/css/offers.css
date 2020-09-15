@@ -1,0 +1,71 @@
+span.bread {
+    left: 7% !important;
+}
+
+.overView .infomation_servies {
+    width: 30%;
+}
+
+.overView .infomation_servies span.title {
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.overView .infomation_servies .content_detail {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #525252;
+}
+
+.overView .infomation_servies .content_detail ol {
+    margin-bottom: 10px;
+}
+
+.overView .infomation_servies .content_detail ol li {
+    list-style: circle;
+    margin-left: 15px;
+}
+
+.overView .leftOver {
+    width: 37%;
+}
+
+.overView .leftOver h1 {
+    line-height: 48px;
+}
+
+button.btn.btn-confirm-offer {
+    padding: 0;
+}
+
+span.btn-expensive {
+    margin-top: 0;
+}
+
+.content_home .tab-content .imgHome img {
+    height: auto !important;
+}
+
+
+@media screen and (max-width: 767px) {
+    .overView {
+        display: inline-block !important;
+    }
+    .overView .leftOver,
+    .overView .rightOver {
+        width: 100% !important;
+    }
+    .overView .infomation_servies {
+        width: 100% !important;
+    }
+    .overView .leftOver h1 {
+        text-align: left; 
+    }
+    span.bread {
+        left: 20% !important;   
+    }
+}

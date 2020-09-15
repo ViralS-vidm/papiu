@@ -1,0 +1,157 @@
+.content_agency h1 {
+    margin-bottom: 100px;
+}
+
+.content_agency h3 {
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 35px;
+    color: #525252;
+    font-family: 'Pangolin-Regular';
+    margin-bottom: 19px;
+}
+
+.content_agency .list_agency li {
+    margin-bottom: 40px;
+}
+
+.content_agency .list_agency p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #525252;
+}
+
+.content_agency .list_agency a {
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.oderNow .leftTitle,
+.oderNow .leftTitle h1 {
+    width: 60%;
+}
+
+
+.oderNow .rightTitle a {
+    position: absolute;
+    bottom: 30%;
+}
+
+.slide {
+    margin-top: 113px;
+    display: block;
+}
+
+.feedbacks {
+    margin-top: 63px;
+    display: block;
+}
+
+.feedbacks form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px 30px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.feedbacks form .form-group {
+    display: flex;
+    position: relative;
+}
+
+.feedbacks form .form-group label {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #525252;
+    width: 45%;
+    margin-right: 15px;
+    text-transform: uppercase;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.form-input {
+    width: 100%;
+    position: relative;
+    height: 48px;
+}
+
+.form-input:before {
+    display: block;
+    content: '';
+    background-image: url('../images/Polygon.png');
+    width: 15px;
+    height: 20px;
+    position: absolute;
+    left: -3px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.form-input input {
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-sizing: border-box;
+    border-radius: 0;
+    height: 48px;
+}
+
+.feedbacks form button.btn-primary-send {
+    width: 150px;
+    height: 43px;
+    background: #AB7038;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: none;
+    position: absolute;
+    right: 0;
+}
+
+span.title_agency {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: -0.5px;
+
+    color: #989898;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: block;
+    position: relative;
+}
+
+span.title_agency:before {
+    display: inline-block;
+    content: '';
+    background-image: url('../images/Polygon.png');
+    width: 15px;
+    height: 20px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 12px;
+    top: 5px;
+}
+
+@media screen and (max-width: 767px) {
+    .oderNow .leftTitle, .oderNow .leftTitle h1 {
+        width: 100%;
+    }
+    .oderNow .rightTitle a {
+        bottom: 5%;
+    }
+    .feedbacks form {
+        display: inline-block;
+        width: 100%;
+    }
+}

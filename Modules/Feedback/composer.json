@@ -1,0 +1,28 @@
+{
+    "name": "nwidart/feedback",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "laraviet/core-module": "dev-master"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Feedback\\Providers\\FeedbackServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Feedback\\": ""
+        }
+    }
+}

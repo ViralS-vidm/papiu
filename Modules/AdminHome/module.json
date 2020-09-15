@@ -1,0 +1,13 @@
+{
+    "name": "AdminHome",
+    "alias": "adminhome",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\AdminHome\\Providers\\AdminHomeServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

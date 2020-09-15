@@ -1,0 +1,16 @@
+{
+    "Blog": true,
+    "FrontPage": true,
+    "Product": true,
+    "Service": true,
+    "Booking": true,
+    "Payment": true,
+    "Page": false,
+    "Report": true,
+    "Feedback": true,
+    "AdminHome": true,
+    "Core": true,
+    "Image": true,
+    "Cms": true,
+    "Agency": true
+}

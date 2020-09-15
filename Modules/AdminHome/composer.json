@@ -1,0 +1,29 @@
+{
+    "name": "laraviet/admin-home-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "Laraviet",
+            "email": "thanhcttsp@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "laraviet/core-module": "dev-master"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\AdminHome\\Providers\\AdminHomeServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\AdminHome\\": ""
+        }
+    },
+    "type": "laravel-module"
+}

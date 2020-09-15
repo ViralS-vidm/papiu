@@ -1,0 +1,26 @@
+<?php
+return [
+    'experience_vr' => 'TRẢI NGHIỆM VR TOUR',
+    'introduce' => 'GIỚI THIỆU',
+    'order_now' => ' ĐẶT PHÒNG<br>NGAY<br>HÔM NAY',
+    'bathroom' => 'phòng tắm',
+    'bedroom' => 'phòng ngủ',
+    'lounge' => 'phòng chờ',
+    'night' => 'đêm',
+    'chose_start_date_stay' => 'CHỌN NGÀY LƯU TRÚ',
+    'chose_end_date_stay' => 'CHỌN NGÀY KÊT THÚC',
+    'service_accompanied' => 'DỊCH VỤ ĐI KÈM',
+    'total_price' => 'TỔNG CỘNG',
+    'booking' => 'Đặt phòng',
+    'other_products' => 'CÁC LỰA CHỌN NGHỈ DƯỠNG KHÁC',
+    'come_with_us' => 'ĐẾN VỚI P’APIU',
+    'come_with_us_message' => 'Cùng tận hưởng những trải nghiệm khó quên',
+    'products_in_papiu' => 'Các lựa chọn nghỉ dưỡng tại P\'apiu',
+    'search_product' => 'Tìm phòng',
+    'no_result' => 'Không có kết quả',
+    'book_success' => 'CHÚC QUÝ KHÁCH CÓ MỘT CHUYẾN TRẢI NGHIỆM VUI VẺ VÀ ĐÀNG NHỚ!',
+    'you_must_fill_all' => 'Bạn phải điền đẩy đủ thông tin',
+    'mini_bar' => "Mini Bar",
+    'cinemar_title' => 'Phòng xem phim',
+    'about_title' => "VỀ P'APIU"
+];
